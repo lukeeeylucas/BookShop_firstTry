@@ -1,0 +1,130 @@
+{
+    "books": [
+        {
+            "id" : "0",
+            "img": "images/pap1.jpg",
+            "aside":   "PRIDE AND PREJUDICE",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+        {
+            "id" : "1",
+            "img": "images/emma2.jpg",
+            "aside":   "EMMA",
+            "binding" : "Binding: Hardcover",
+            "price" :  450.00,
+            "type" : "fiction"
+            
+            
+        },
+        {
+            "id" : "2",
+            "img": "images/northa3.jpg",
+            "aside":   "NORTHANGER ABBEY",
+            "binding" : "Binding: Hardcover",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+        {
+            "id" : "3",
+          
+            "img": "images/persuasion4.jpg",
+            "aside":   "PERSUASION",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+        {
+            "id" : "4",
+
+            "img": "images/sas5.jpg",
+            "aside":   "SENSE AND SENSIBILITY",
+            "binding" : "Binding: Hardcover",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+        {
+            "id" : "5",
+          
+            "img": "images/mfp6.jpg",
+            "aside":   "MANSFIELD PARK",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+        {
+            "id" : "6",
+         
+            "img": "images/hf7.jfif",
+            "aside":   "Jane HUCKLEBERRY FINN",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+        {
+            "id" : "7",
+         
+            "img": "images/raj8.jpg",
+            "aside":   "ROMEO AND JULIET",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "fiction"
+        },
+
+        {
+            "id" : "8",
+        
+            "img": "images/nonfiction1.jfif",
+            "aside":   "12 YEARS A SLAVE",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "nonfiction"
+        },
+        {
+            "id" : "9",
+          
+            "img": "images/nonfiction2.jpg",
+            "aside":   "THE DIARY OF A YOUNG GIRL",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "nonfiction"
+        },
+        {
+            "id" : "10",
+         
+            "img": "images/nonfiction3.jpg",
+            "aside":   "NEWS OF A KIDNAPPING",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "nonfiction"
+        },
+        {
+            "id" : "11",
+            
+            "img": "images/nonfiction4.jpg",
+            "aside":   "THE BUTTERFLY GARDEN",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "nonfiction"
+        },
+        {
+            "id" : "12",
+           
+            "img": "images/nonfiction5.jfif",
+            "aside":   "UNBROKEN",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "nonfiction"
+        },
+        {
+            "id" : "13",
+           
+            "img": "images/nonfiction6.jpg",
+            "aside":   "MALCOM",
+            "binding" : "Binding: Paperback",
+            "price" :  450.00,
+            "type" : "nonfiction"
+        }
+    ]
+}

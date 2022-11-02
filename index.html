@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<section>
+
+    <head>
+        <title>Bibangco Basic Web Development Assessment</title>
+        <link rel="stylesheet" type="text/css" href="https://joneajlukebibangco.github.io/web-dev-assesssment-joneajlukebibangco/style.css">
+             <!-- JQUERY -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+
+    <section>
+        <nav class="nav-panel">
+            <ul class="nav-panel-main">
+                <li>
+                    <button id="myBtn" class="to_the_left"><img src="images/heart.jpg" width="50" height="50"></button>
+                </li>
+                <!-- <li class= "bookshop"><br>With Love, Mariella</li>  -->
+            </ul>
+        </nav>
+
+
+
+        <!-- SLIDESHOWS/CAROUSEL -->
+
+
+        <section class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/slideshow1.jpg" style="width:100%">
+                <div class="text">A reader lives a thousand times before she dies- George R. R. Martin</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/slideshow2.jpg" style="width:100%">
+                <div class="text">We read to know we're not alone- C.S. Lewis</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3/ 4</div>
+                <img src="images/slideshow4.png" style="width:100%">
+                <div class="text">Only the weak-minded refuse to be influences by literature and poetry. Cassandra Clare
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/slideshow5.jpg" style="width:100%">
+                <div class="text">Never trust anyone who has not brought a book with them. -Lemony Snicket</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </section>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+<br>
+
+        <!-- FICTION BOOKS  -->
+        <div class="fic"><br> FICTIONAL SECTION<br></div><br><br>
+        <section id="booksfiction" class="fiction">
+        </section>
+<!-- NONFICTION BOOKS -->
+        <div class="nonfic"><br>NON-FICTION SECTION<br></div><br><br><br><br>
+        <section id="booksnonfiction" class="nonfiction">    
+        </section>
+
+        <!-- ADD TO CART-MODAL -->
+
+        <div id="cartModal" class="cartModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Your cart...</p>
+            </div>
+        </div>
+
+        <div id="addCartList" class="addCartList">
+            <section id="modallist" class="modallist">
+                <span id="close" class="close">&times;</span>
+            </section>
+        </div>
+
+
+        <footer><br><br>for the love of books: Joneaj Luke 2021. </footer>
+        <script type="text/javascript" src="https://joneajlukebibangco.github.io/web-dev-assesssment-joneajlukebibangco/script.js"></script>
+        </body>
+
+        </html>
